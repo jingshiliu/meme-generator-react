@@ -2,7 +2,7 @@
 
 Requests memes from API `https://api.imgflip.com/get_memes`
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](memeGeneratorGIF.gif)
 
 
 
