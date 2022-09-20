@@ -1,3 +1,23 @@
+nav{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+  font-size: 30px;
+  background-color: #4ea8f6;
+}
+
+nav span:last-child{
+  font-size: 15px;
+  color: white;
+}
+
+.color-input{
+  width: 100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 
 form .col{
   margin: 10px 0;
@@ -31,4 +51,57 @@ form .col{
 
 .meme-image-container span:last-child{
   bottom: 10%;
+}
+
+.meme-popup{
+  position: relative;
+  margin-left: 10vw;
+  height: 100vh;
+  max-width: 80vw;
+  padding:5% 10%;
+  border-radius: 2%;
+  position: absolute;
+  top: 0;
+  background-color: #bde0fef9;
+  overflow-y:auto;
+}
+
+.meme-popup-close-button{
+  position: fixed;
+  right: 15vw;
+  top: 2vh;
+  display: inline-block;
+  color: red;
+  width: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.meme-popup-close-button:hover{
+  color: rgba(255, 0, 0, 0.612);
+}
+
+.meme-popup-card{
+  margin-bottom: 2em;
+}
+
+.meme-popup-card:hover{
+  background-color: rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.meme-popup-card img{
+  max-width: 100%;
+  height: 250px;
+}
+
+.Buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.Buttons button{
+  display: block;
+  margin: 10px;
+  width: 150px;
 }
