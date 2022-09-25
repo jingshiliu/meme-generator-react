@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import ReactDOM from 'react-dom/client'
 import './App.css'
 
 const memeAPI = "https://api.imgflip.com/get_memes"
